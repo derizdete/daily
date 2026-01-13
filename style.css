@@ -41,3 +41,29 @@ li.done{
   background: #c8f7c5;
   color: #2d6a2d;
 }
+
+#toggleTheme{
+  display: block;
+  margin:0 auto 20px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+li.done{
+  text-decoration: line-throught;
+  background: #b5e7a0;
+  color: #555;
+}
+body.dark{
+  background: #121212;
+  color: #eee;
+}
+body.dark li{
+  background: #333;
+}
+body.dark li.done{
+  background: #2e7d32;
+  color: #eee;
+}
